@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes health risk factors across a large medical student population to identify trends in chronic condition prevalence, cardiovascular risk, and demographic health profiles. The workflow mirrors real-world responsibilities in medical education data analysis — including data cleaning, SQL-based querying, and interactive dashboard reporting.
+This project analyzes health risk factors across a large medical student population to identify trends in chronic condition prevalence, cardiovascular risk, and demographic health profiles. The workflow mirrors real-world responsibilities in medical education data analysis including data cleaning, SQL-based querying, and interactive dashboard reporting.
 
 This project was designed to simulate the kind of assessment and program evaluation work performed in academic medical settings, including data integrity validation and stakeholder-ready reporting.
 
@@ -32,7 +32,7 @@ The dataset contains 200,000 simulated medical student health records with the f
 | Diabetes | Yes / No |
 | Smoking | Yes / No |
 
-**Source:** [Medical Students Dataset – Kaggle](https://www.kaggle.com/)
+**Source:** [Medical Students Dataset – Kaggle](https://www.kaggle.com/datasets/slmsshk/medical-students-dataset)
 
 ---
 
@@ -81,16 +81,16 @@ The interactive dashboard includes:
 
 ## 💡 Key Findings
 
-- Smokers showed notably higher average blood pressure and cholesterol compared to non-smokers
-- Diabetes prevalence increased with age, with the 28–34 cohort showing the highest rate
-- Approximately 1 in 10 students met at least one high-risk threshold (BMI, cholesterol, or blood pressure)
-- Health metrics were largely consistent across gender groups, with slight BMI variation
+- ...
+- ...
+- ...
+- ...
 
 ---
 
 ## 🛠️ Tools Used
 
-- **MySQL Community / MySQL Workbench** — Data import, cleaning, and querying
+- **MySQL Workbench** — Data import, cleaning, and querying
 - **Power BI Desktop** — Dashboard development and visualization
 - **Microsoft Excel** — Initial data inspection and backup
 
