@@ -40,13 +40,12 @@ The dataset contains 200,000 simulated medical student health records with the f
 
 Before analysis, the following data quality issues were identified and resolved in MySQL:
 
-| Issue | Count | Resolution |
+| Issue | Details | Resolution |
 |---|---|---|
-| Missing values | 20,000 rows (~10%) | Removed rows missing critical fields (Student ID, Age, Gender) |
-| Duplicate records | 7,644 rows | Deduplicated using multi-column matching |
-| Final clean dataset | ~172,000 rows | Validated before analysis |
-
-Identifying and resolving these issues prior to analysis reflects best practices in data integrity — a core requirement for accreditation reporting and program evaluation environments.
+| Duplicate records | 101,023 duplicate student IDs identified | Deduplicated using MIN(student_id) grouping |
+| Missing values | Rows missing Student ID, Age, or Gender | Removed prior to analysis |
+| Data type mismatches | All columns imported as VARCHAR | Converted to INT/FLOAT after null handling |
+| **Final clean dataset** | **138,364 records** | Validated before analysis |
 
 ---
 
@@ -81,10 +80,12 @@ The interactive dashboard includes:
 
 ## 💡 Key Findings
 
-- ...
-- ...
-- ...
-- ...
+
+- 44.66% of students met at least one high-risk threshold (BMI > 30, cholesterol > 200, or blood pressure > 140)
+- Diabetes prevalence ranged from 8.4% to 10.0% across age groups, with age 32 showing the highest rate at 10.04%
+- Smokers and non-smokers showed nearly identical cardiovascular averages, suggesting lifestyle factors alone may not drive risk in this simulated population
+- Blood type distribution was approximately equal across A, AB, B, and O groups (~25% each)
+- Health metrics (BMI, cholesterol, heart rate) were nearly identical between male and female students
 
 ---
 
