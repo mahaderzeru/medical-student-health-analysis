@@ -75,7 +75,7 @@ The interactive dashboard includes:
 - **Grouped Bar Chart** — Cardiovascular risk indicators by smoking status
 - **Gender Slicer** — Dynamic filter applied across all visuals
 
-![Dashboard Preview]([./dashboard_preview.png](https://app.powerbi.com/groups/me/reports/0f03bc13-0538-416f-ac2c-09a4673fd0d3/edc3405c44c14c3d8096?experience=power-bi))
+![Dashboard Preview](https://app.powerbi.com/groups/me/reports/0f03bc13-0538-416f-ac2c-09a4673fd0d3/edc3405c44c14c3d8096?experience=power-bi)
 
 ---
 
