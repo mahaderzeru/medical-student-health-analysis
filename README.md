@@ -84,7 +84,7 @@ The interactive dashboard includes:
 
 
 - 44.66% of students met at least one high-risk threshold (BMI > 30, cholesterol > 200, or blood pressure > 140
-- Diabetes prevalence ranged from 8.4% to 10.0% across age groups, with age 32 showing the highest rate at 10.04%
+- Diabetes prevalence ranged from 8.4% to 10% across age, with age 32 showing the highest rate at 10.04%
 - Smokers and non-smokers showed nearly identical cardiovascular averages, suggesting lifestyle factors alone may not drive risk in this simulated population
 - Blood type distribution was approximately equal across A, AB, B, and O groups (~25% each)
 - Health metrics (BMI, cholesterol, heart rate) were nearly identical between male and female students
