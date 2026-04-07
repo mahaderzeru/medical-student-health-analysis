@@ -54,7 +54,7 @@ Before analysis, the following data quality issues were identified and resolved 
 Six analytical queries were developed to surface health risk insights across the student population:
 
 1. **Health metrics by gender** — Average BMI, cholesterol, and heart rate by gender
-2. **Diabetes prevalence by age group** — Diabetes rate across three age cohorts (18–22, 23–27, 28–34)
+2. **Diabetes prevalence by age group** — Diabetes rate tracked across ages 18–34
 3. **Smoking and cardiovascular risk** — Blood pressure, cholesterol, and heart rate by smoking status
 4. **High-risk student identification** — Students flagged with BMI > 30, cholesterol > 220, or blood pressure > 130
 5. **Blood type distribution** — Population breakdown by blood type
@@ -74,19 +74,22 @@ The interactive dashboard includes:
 - **Grouped Bar Chart** — Cardiovascular risk indicators by smoking status
 - **Gender Slicer** — Dynamic filter applied across all visuals
 
-![Dashboard Preview]([https://app.powerbi.com/groups/me/reports/0f03bc13-0538-416f-ac2c-09a4673fd0d3/edc3405c44c14c3d8096?experience=power-bi](https://app.powerbi.com/groups/me/reports/0f03bc13-0538-416f-ac2c-09a4673fd0d3/edc3405c44c14c3d8096?experience=power-bi))
+![Dashboard Preview](./dashboard_preview.png)
+
+🔗 [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/0f03bc13-0538-416f-ac2c-09a4673fd0d3/edc3405c44c14c3d8096?experience=power-bi)
 
 ---
 
 ## 💡 Key Findings
 
 
-- 44.66% of students met at least one high-risk threshold (BMI > 30, cholesterol > 200, or blood pressure > 140)
+- 44.66% of students met at least one high-risk threshold (BMI > 30, cholesterol > 200, or blood pressure > 140
 - Diabetes prevalence ranged from 8.4% to 10.0% across age groups, with age 32 showing the highest rate at 10.04%
 - Smokers and non-smokers showed nearly identical cardiovascular averages, suggesting lifestyle factors alone may not drive risk in this simulated population
 - Blood type distribution was approximately equal across A, AB, B, and O groups (~25% each)
 - Health metrics (BMI, cholesterol, heart rate) were nearly identical between male and female students
 
+Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
 ---
 
 ## 🛠️ Tools Used
@@ -100,5 +103,5 @@ The interactive dashboard includes:
 ## 👤 Author
 
 **Mahader Zeru**  
-MS Data Science · MBA Candidate, Data Analytics — Indiana Wesleyan University  
+BS, Data Science · MBA Candidate, Data Analytics — Indiana Wesleyan University  
 [LinkedIn](https://linkedin.com/in/mahaderzeru) · [GitHub](https://github.com/mahaderzeru)
