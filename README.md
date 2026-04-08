@@ -83,11 +83,11 @@ The interactive dashboard includes:
 ## 💡 Key Findings
 
 
-- 44.66% of students met at least one high-risk threshold (BMI > 30, cholesterol > 200, or blood pressure > 140
-- Diabetes prevalence ranged from 8.4% to 10% across age, with age 32 showing the highest rate at 10.04%
-- Smokers and non-smokers showed nearly identical cardiovascular averages, suggesting lifestyle factors alone may not drive risk in this simulated population
-- Blood type distribution was approximately equal across A, AB, B, and O groups (~25% each)
-- Health metrics (BMI, cholesterol, heart rate) were nearly identical between male and female students
+- 44.66% of students flagged as high risk (BMI > 30, cholesterol > 200, or blood pressure > 140)
+- Diabetes prevalence peaks at age 32 (10.04%), with rates ranging from 8.4%–10% across all ages
+- Smoking status had no significant impact on blood pressure or cholesterol levels
+- Blood type was evenly distributed across A, AB, B, and O (~25% each)
+- Health metrics were consistent across gender groups
 
 - Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
 ---
