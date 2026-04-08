@@ -89,7 +89,7 @@ The interactive dashboard includes:
 - Blood type distribution was approximately equal across A, AB, B, and O groups (~25% each)
 - Health metrics (BMI, cholesterol, heart rate) were nearly identical between male and female students
 
-Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
+- Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
 ---
 
 ## 🛠️ Tools Used
