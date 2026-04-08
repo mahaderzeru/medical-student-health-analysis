@@ -89,7 +89,7 @@ The interactive dashboard includes:
 - Blood type was evenly distributed across A, AB, B, and O (~25% each)
 - Health metrics were consistent across gender groups
 
-- Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
+#### Note: This is synthetic data. Findings like almost identical cardiovascular health between smokers and non-smokers show that the dataset is not in line with real-world clinical patterns.
 ---
 
 ## 🛠️ Tools Used
